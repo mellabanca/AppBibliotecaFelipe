@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import BottomTabNavigator from './components/BottomTabNavigator';
+import Navegadordeabas from './components/Navegadordeabas';
 
 export default class App extends Component {
   render(){
-    return <BottomTabNavigator/>
+    return <Navegadordeabas/>
   }
 }
 
