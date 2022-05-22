@@ -17,7 +17,6 @@ constructor(props){
 getCameraPermissions = async stateMode => {
     const {status} = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({
-        /* se status === "granted", o usuário forneceu a permissão"*/
         permissionsCamera: status === "granted",
         stateMode: stateMode,
         scanner: false
